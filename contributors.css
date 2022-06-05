@@ -35,3 +35,17 @@ tr {
     background-color: #dddddd;
     color: black
 }
+nav {
+    border-color: black;
+    border-width: 7px;
+    background: whitesmoke;
+    margin: auto;
+    padding: 3px;
+    text-align: center;
+  }
+  nav>a {
+      color:black;
+  }
+  #ct{
+      margin-top:1.2%;
+  }
