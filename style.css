@@ -417,3 +417,8 @@ thead{
   width: 100px;
   visibility: initial;
 }
+.reset{
+  display:flex;
+  justify-content: space-between;
+  gap:12px;
+}

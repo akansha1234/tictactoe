@@ -32,7 +32,7 @@
   <body>
 
     <nav class="navbar fixed-top" id="hero">
-      <button class="btn btn-primary" onclick="playAudio(this)" type="button">Play Music</button>
+      <button class="btn btn-info" onclick="playAudio(this)" type="button">Play Music</button>
       <input type="range" id="volume-slider">
       <a class="navbar-brand" href="about.html">About</a>
       <a class="navbar-brand" href="#">Play Game</a>
@@ -133,14 +133,17 @@ function myFunction() {
    container.classList.toggle("dark-play")
 }
 </script>
+   <!-----To align the difficulty level and reset board-->
+   <div class="reset">
       <select id="ai_level">
-        <option value="easy" selected>Easy</option>
-        <option value="normal">Normal</option>
-        <option value="hard">Hard</option>
+         <option value="easy" selected>Easy</option>
+         <option value="normal">Normal</option>
+         <option value="hard">Hard</option>
       </select>
       <button onclick="reset_board()">RESET BOARD</button>
       <h2 id="winner"></h2>
-    </div>
+   </div>
+</div>
 
     <script src="https://connect.facebook.net/en_US/fbinstant.6.3.js"></script>
     <script src="app.js"></script>
